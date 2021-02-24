@@ -6,10 +6,10 @@ library(raster)
 library(rgdal)
 
 
-las <- readLAS("D:/LiDARD_Testing/0609/0609_segmented.las", select = "xyzc") # input las at X date during the growing season
-las2 <- readLAS("D:/LiDARD_Testing/0401/0401_clipped.las", select = "xyzc")  # input las of bare soil before growing season 
+las <- readLAS("Las File", select = "xyzc") # input las at X date during the growing season
+las2 <- readLAS("LAS File", select = "xyzc")  # input las of bare soil before growing season 
 resolution =   #define resolution for raters
-k <- .45       #extinction coeficient
+k <-        #extinction coeficient
 
 ----------------------------------------------------------------------------------------------------------
 
